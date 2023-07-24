@@ -1,0 +1,82 @@
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=100)
+	{
+		printf("%d\n",a);
+		a++;
+	}
+	return 0;
+}
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	while(a>=1)
+	{
+		printf("%d\n",a);
+		 a--;
+		
+	}
+	return 0;
+}
+
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=50;
+	while(a<=100)
+	{
+		printf("%d\n",a);
+		a++;
+	}
+	return 0;
+}
+
+
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=100;
+	while(a>=50)
+	{
+		printf("%d\n",a);
+		a--;
+	}
+	return 0;
+}
+
+
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=45;
+	while(a<=89)
+	{
+		printf("%d\n",a);
+		a++;
+	}
+	return 0;
+}
+

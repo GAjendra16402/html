@@ -1,0 +1,129 @@
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=5)
+	{
+		printf("%d\n",a);
+		a++;
+	}
+	return 0;
+}
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	while(a<=10)
+	{
+		printf("%d\n",a);
+		a++;
+	}
+	return 0;
+}
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=5;
+	while(a>=1)
+	{
+		printf("%d\n",a);
+		a--;
+	}
+	return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	while(a>=1)
+	{
+		printf("%d\n",a);
+		a--;
+	}
+	return 0;
+}
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int num;
+	printf("enter the number");
+	scanf("%d",&num);
+	int rem,sum=0;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum*10+rem;
+		num=num/10;
+	}
+	printf("the reverse number is printed : %d",sum);
+	return 0;
+}
+
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int num=12321,rem,sum=0;
+	int temp;
+	temp=num;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum*10+rem;
+		num=num/10;
+	}
+	if(temp == sum)
+	{
+		printf("the number is pallindrome");
+	}
+	else
+	{
+		printf("this number is not pallindrome");
+	
+	}
+	return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	int num=151,rem,sum=0;
+	int temp;
+	temp=num;
+	while(num>0)
+	{
+		rem=num%10;
+		sum=sum+rem*rem*rem;
+		num=num/10;
+	}
+	if(temp==sum)
+	{
+		printf("the number is armstrong");
+	}
+	else
+	{
+		printf("the number is not an armstrong");
+	}
+	 return 0;
+}

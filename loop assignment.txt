@@ -1,0 +1,156 @@
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	
+	for(i=1;i<=10;i++)
+	{
+		for(j=10;j>=i;j--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	
+	for(i=1;i<=10;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int rows,i,j;
+	printf("enter the number of rows: ");
+	scanf("%d",&rows);
+	
+	for(i=1;i<=rows;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int rows,i,j;
+	printf("enter the number of rows: ");
+	scanf("%d",&rows);
+	
+	for(i=1;i<=rows;i++)
+	{
+		for(j=rows;j>=i;j--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+	int i;
+	for(i=1;i<=3;i++)
+	{
+		for(int j=1;j<=i;j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+for(int i=1;i<=2;i++)
+	{
+		for(int j=2;j>=i;j--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
+#include<stdio.h>
+int main()
+{
+	int i,j;
+	for(i=1;i<=3;i++)
+	{
+		for(j=1;j<=i;j++)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	for(int i=1;i<=3;i++)
+	{
+		for(j=3;j>=i;j--)
+		{
+			printf("*");
+		}
+		printf("\n");
+	}
+	return 0;
+}
+
+
+
+
+
+
+#include <stdio.h>
+
+int main() 
+{
+    int row = 1;
+    int num = 1;
+
+    while (row <= 4) 
+	{
+        int col = 1;
+        while (col <= row) 
+		{
+            printf("%d", num);
+            num++;
+            col++;
+        }
+        printf("\n");
+        row++;
+    }
+
+    return 0;
+}
